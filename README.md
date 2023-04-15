@@ -1,6 +1,6 @@
 # Digipedia
 
-## Informativni portal nalik Wikipedi-i
+## Web aplikacija nalik Wikipedi-i
 
 Projekt Digipedia je nastao na faksu kao projekt za konstrukcijske vježbe iz predmeta **Web programiranje na strani poslužitelja** i **Skriptni programski jezici**.
 
@@ -20,14 +20,14 @@ Stranica prikazuje sva naučena znanja o sljedećim web tehnologijama: **Angular
 
 ---
 
-## Pokretanje projekta
+### Pokretanje projekta
 
-Potrebno je instalirati **XAMPP**, te preko toga pokrenuti **Apache** i **MySQL**.
+Potrebno je instalirati [XAMPP](https://www.apachefriends.org), te preko toga pokrenuti **Apache** i **MySQL**.
 
-Potom zalijepiti mapu Digipedia u `C:\xampp\htdocs\`.
+Potom zalijepiti mapu **Digipedia** u `C:\xampp\htdocs\`.
 
-Link za pristup bazi: `http://localhost/phpmyadmin/index.php`.
+Link za pristup bazi: [http://localhost/phpmyadmin/index.php](http://localhost/phpmyadmin/index.php).
 
-Zatim u **phpmyadmin** kreirati bazu koja se zove **wikipedia**(Character Set neka bude **Collation**) te potom importati `wikipedia.sql` koji se nalazi ovdje u root-u projekta.
+Zatim u **phpmyadmin** kreirati bazu koja se zove `wikipedia`(Character Set neka bude **Collation**) te potom importati `wikipedia.sql` koji se nalazi ovdje u root-u projekta.
 
-Link za pristup aplikaciji: `http://localhost/digipedia/index.php#!/`.
+Link za pristup aplikaciji: [http://localhost/digipedia/index.php#!/](http://localhost/digipedia/index.php#!/).
