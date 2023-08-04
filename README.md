@@ -1,33 +1,33 @@
 # Digipedia
 
-## Web aplikacija nalik Wikipedi-i
+## Web application similar to Wikipedia
 
-Projekt Digipedia je nastao na faksu kao projekt za konstrukcijske vježbe iz predmeta **Web programiranje na strani poslužitelja** i **Skriptni programski jezici**.
+The Digipedia project was created at the faculty as a project for construction exercises in the subject **Server-Side Web Programming** and **Scripting Programming Languages**.
 
-Tema projekta je bila kreirati program koji će služiti kao informativni portal nalik Wikipedi-i sa autorizacijom korisnika. Program treba sadržavati kategorije, članke i podčlanke koji su dostupni svima te administrativno sučelje za admina pomoću kojeg će moći upravljati svime na stranici.
+The project's theme was to create a program that would serve as an informative portal similar to Wikipedia, with user authentication. The program should include categories, articles, and sub-articles that are accessible to everyone, as well as an administrative interface for the admin to manage everything on the website.
 
-Stranica prikazuje sva naučena znanja o sljedećim web tehnologijama: **AngularJs v1.6.9** uz **jQuery 3.2.1**, **PHP 7** i korišten je **Bootstrap 3.3.7** za dizajn. A za bazu se koristio **MySQL**.
+The website showcases knowledge about the following web technologies: **AngularJs v1.6.9** with **jQuery 3.2.1**, **PHP 7**, and **Bootstrap 3.3.7** was used for design. **MySQL** was used as the database.
 
 [![My Skills](https://skills.thijs.gg/icons?i=angular,jquery,php,bootstrap,mysql)](https://skills.thijs.gg)
 
 ---
 
-### Stranica sadrži 3 vrste pregleda:
+### The website contains 3 types of views:
 
-1.  Za običnog gosta stranice koji može pristupiti svim člancima na stranici te mu je sve _read-only_.
-1.  Za prijavljenog korisnika koji može dodavati članke i podčlanke, te dati ocjenu svim člancima. Isto tako ima svu kontrolu nad svojim člancima i podčlancima jer ih može uređivati i brisati.
-1.  Za prijavljenog admina koji može upravljati svim korisnicima, kategorijama i članicam, znači dodavat, uređivat i brisati ih. Također ima i uvid u povijest uređivanja članaka gdje može vidjeti tko je kada i koji članak uređivao.
+1. For regular site visitors who can access all articles on the website, and everything is read-only for them.
+1. For logged-in users who can add articles and sub-articles, and rate all articles. They also have full control over their articles and sub-articles as they can edit and delete them.
+1. For logged-in admins who can manage all users, categories, and articles, which means they can add, edit, and delete them. They also have access to the editing history of articles, where they can see who edited which article and when.
 
 ---
 
-### Pokretanje projekta
+### Running the project
 
-Potrebno je instalirati [XAMPP](https://www.apachefriends.org), te preko toga pokrenuti **Apache** i **MySQL**.
+You need to install [XAMPP](https://www.apachefriends.org) and then run **Apache** and **MySQL** through it.
 
-Potom zalijepiti mapu **Digipedia** u `C:\xampp\htdocs\`.
+Next, copy the **Digipedia** folder to `C:\xampp\htdocs\`.
 
-Link za pristup bazi: [http://localhost/phpmyadmin/index.php](http://localhost/phpmyadmin/index.php).
+Link to access the database: [http://localhost/phpmyadmin/index.php](http://localhost/phpmyadmin/index.php).
 
-Zatim u **phpmyadmin** kreirati bazu koja se zove `wikipedia`(Character Set neka bude **Collation**) te potom importati `wikipedia.sql` koji se nalazi ovdje u root-u projekta.
+Then, in **phpmyadmin**, create a database called `wikipedia` (Character Set should be **Collation**), and then import `wikipedia.sql`, which is located in the project's root.
 
-Link za pristup aplikaciji: [http://localhost/digipedia/index.php#!/](http://localhost/digipedia/index.php#!/).
+Link to access the application: [http://localhost/digipedia/index.php#!/](http://localhost/digipedia/index.php#!/).
