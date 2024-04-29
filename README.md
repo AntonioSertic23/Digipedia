@@ -8,7 +8,7 @@ The project's theme was to create a program that would serve as an informative p
 
 The website showcases knowledge about the following web technologies: **AngularJs v1.6.9** with **jQuery 3.2.1**, **PHP 7**, and **Bootstrap 3.3.7** was used for design. **MySQL** was used as the database.
 
-[![My Skills](https://skills.thijs.gg/icons?i=angular,jquery,php,bootstrap,mysql)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=angular,jquery,php,bootstrap,mysql)](https://skillicons.dev)
 
 ---
 
